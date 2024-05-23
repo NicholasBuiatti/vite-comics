@@ -24,10 +24,9 @@ export default {
 
 
 	</main>
-
-	<footer>
-
-	</footer>
+	<div class="bg-primary">
+		<Footer />
+	</div>
 </template>
 
 <style scoped></style>

@@ -15,9 +15,9 @@ export default {
 </script>
 
 <template>
-    <section class="container">
-
-    </section>
+    <footer class="container p-5">
+        <TopFooter />
+    </footer>
 </template>
 
 <style scoped></style>

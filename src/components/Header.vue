@@ -50,7 +50,7 @@ export default {
 </script>
 
 <template>
-    <section class="container">
+    <header class="container">
         <div class="row justify-content-between align-items-center p-3">
             <figure class="col-2 mb-0">
                 <img src="../assets/Header-Logo/dc-logo.png" alt="Logo">
@@ -59,7 +59,7 @@ export default {
                 <a v-for="link in links" :href="link.url">{{ link.text }}</a>
             </div>
         </div>
-    </section>
+    </header>
 </template>
 
 <style scoped>
