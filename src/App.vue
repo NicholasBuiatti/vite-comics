@@ -20,13 +20,10 @@ export default {
 <template>
 	<Header />
 
-	<main>
+	<Main />
 
+	<Footer />
 
-	</main>
-	<div class="bg-primary">
-		<Footer />
-	</div>
 </template>
 
 <style scoped></style>

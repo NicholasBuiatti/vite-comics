@@ -36,14 +36,16 @@ export default {
 </script>
 
 <template>
-    <div class="row">
-        <div v-for="link in links" class="col row align-items-center">
-            <figure class="w-25 mb-0">
-                <img class="col-12" src="../../assets/Footer-Top-Img/buy-comics-digital-comics.png" alt="">
-            </figure>
-            <a href="" class="col">{{ link.text }}</a>
+    <section class="container p-5">
+        <div class="row">
+            <div v-for="link in links" class="col row align-items-center">
+                <figure class="w-25 mb-0">
+                    <img class="col-12" src="../../assets/Footer-Top-Img/buy-comics-digital-comics.png" alt="">
+                </figure>
+                <a href="" class="col">{{ link.text }}</a>
+            </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style scoped>
