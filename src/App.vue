@@ -1,13 +1,13 @@
 <script>
-import Header from './components/Header.vue';
-import Main from './components/Main.vue';
-import Footer from './components/Footer.vue';
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
 	components: {
-		Header,
-		Main,
-		Footer,
+		AppHeader,
+		AppMain,
+		AppFooter,
 	},
 	data() {
 		return {
@@ -18,11 +18,11 @@ export default {
 </script>
 
 <template>
-	<Header />
+	<AppHeader />
 
-	<Main />
+	<AppMain />
 
-	<Footer />
+	<AppFooter />
 
 </template>
 

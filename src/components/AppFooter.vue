@@ -1,12 +1,12 @@
 <script>
-import TopFooter from './footerComponents/TopFooter.vue';
-import MidFooter from './footerComponents/MidFooter.vue';
-import BottomFooter from './footerComponents/BottomFooter.vue';
+import AppTopFooter from './AppFooterComponents/AppTopFooter.vue';
+import AppMidFooter from './AppFooterComponents/AppMidFooter.vue';
+import AppBottomFooter from './AppFooterComponents/AppBottomFooter.vue';
 export default {
     components: {
-        TopFooter,
-        MidFooter,
-        BottomFooter,
+        AppTopFooter,
+        AppMidFooter,
+        AppBottomFooter,
     },
     data() {
         return {
@@ -20,13 +20,13 @@ export default {
 
     <section id="footerImg">
         <section class="bg-primary position-relative z-1">
-            <TopFooter />
+            <AppTopFooter />
         </section>
 
-        <MidFooter />
+        <AppMidFooter />
 
         <section class="bg-dark position-relative z-1">
-            <BottomFooter />
+            <AppBottomFooter />
         </section>
     </section>
 
