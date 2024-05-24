@@ -19,13 +19,13 @@ export default {
 <template>
 
     <section id="footerImg">
-        <section class="bg-primary">
+        <section class="bg-primary position-relative z-1">
             <TopFooter />
         </section>
 
         <MidFooter />
 
-        <section class="bg-dark">
+        <section class="bg-dark position-relative z-1">
             <BottomFooter />
         </section>
     </section>
@@ -36,6 +36,5 @@ export default {
 #footerImg {
     background-image: url('../assets/footer-bg.jpg');
     background-size: cover;
-    position: relative;
 }
 </style>

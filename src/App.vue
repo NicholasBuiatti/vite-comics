@@ -27,3 +27,8 @@ export default {
 </template>
 
 <style scoped></style>
+
+<!-- getImg(path) {
+	let risultato = new URL(`../assets/img/${path}`, import.meta.url);
+	return risultato.href;
+}, -->
