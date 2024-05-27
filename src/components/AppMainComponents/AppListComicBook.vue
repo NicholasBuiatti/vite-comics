@@ -1,5 +1,9 @@
 <script>
+import AppComicBookImg from "./AppComicBookImg.vue";
 export default {
+    components: {
+        AppComicBookImg
+    },
     data() {
         return {
             fumetti: [
@@ -93,12 +97,8 @@ export default {
             <button type="button" class="btn btn-primary fw-bold rounded-0" id="changeImg">CURRENT
                 SERIES</button>
             <div class="row flex-wrap justify-content-between">
-                <div v-for="ComicBook in fumetti" class="col-2 row flex-wrap">
-                    <figure>
-                        <img :src="ComicBook.thumb" alt="" class="col-12 h-100">
-                    </figure>
-                    <p class="text-white">{{ ComicBook.series.toUpperCase() }}</p>
-                </div>
+                <AppComicBookImg v-for="ComicBook in fumetti" :singleComicBook="ComicBook"
+                    class="col-2 row flex-wrap" />
             </div>
             <div class="text-center">
                 <button type="button" class="btn btn-primary fw-bold rounded-0">LOAD MORE</button>
